@@ -36,9 +36,7 @@ Agents involved:
 
 ## 📁 Project Structure
 
-```
-
-project/
+```project/
 ├── agents/
 │   ├── useragent.py
 │   ├── datavalidation\_agent.py
@@ -72,8 +70,8 @@ project/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/diabetes-mas.git
-   cd diabetes-mas
+   git clone https://github.com/raufur-simanto/Diabeties-MAS.git
+   cd Diabetes-MAS
 ````
 
 2. Create a virtual environment and activate it:

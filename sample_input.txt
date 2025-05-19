@@ -1,0 +1,20 @@
+Name: BOB
+Age: 40  
+Blood Sugar Level (mg/dL): 165  
+Blood Pressure (mmHg): 140  
+Insulin Level (µU/mL): 18  
+BMI: 32  
+Symptoms: fatigue, blurred vision  
+
+
+Output: high
+
+Name: Alice  
+Age: 28  
+Blood Sugar Level (mg/dL): 90  
+Blood Pressure (mmHg): 110  
+Insulin Level (µU/mL): 12  
+BMI: 22  
+Symptoms: none  
+
+Output: low

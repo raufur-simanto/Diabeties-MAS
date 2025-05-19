@@ -1,0 +1,6 @@
+joblib
+scikit-learn
+
+spade==3.3.3
+slixmpp==1.7.1
+setuptools
