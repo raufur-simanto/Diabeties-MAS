@@ -14,7 +14,7 @@ class AlertAgent(Agent):
                 if risk == "High":
                     print(f"[AlertAgent] High risk detected. Alerting user.")
                     alert_msg = Message(to="user@localhost")
-                    alert_msg.body = f"⚠️ Hi {name}, based on your data, you may be at high risk for diabetes. Please consult a doctor."
+                    alert_msg.body = f"Hi {name}, based on your data, you may be at high risk for diabetes. Please consult a doctor."
                     await self.send(alert_msg)
                 else:
                     print(f"[AlertAgent] Risk is low. No alert sent.")

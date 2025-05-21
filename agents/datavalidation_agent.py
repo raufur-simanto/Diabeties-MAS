@@ -48,7 +48,7 @@ class DataValidationAgent(Agent):
                     forward.body = data
                     await self.send(forward)
 
-                    confirm = Message(to=str(msg.sender))
+                    confirm = Message(to=str(msg.sender)) ## to user agent
                     confirm.body = "Data validated and sent to storage."
                     await self.send(confirm)
 

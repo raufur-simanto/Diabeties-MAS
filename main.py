@@ -26,7 +26,7 @@ async def main():
     user_agent = UserAgent("user@localhost", "userpassword")
     await user_agent.start()
 
-    print("[Main] Agents started. Running for 60 seconds...")
+    print("[Main] Agents started. Running for 1 minute...")
     await asyncio.sleep(60)
 
     await user_agent.stop()
